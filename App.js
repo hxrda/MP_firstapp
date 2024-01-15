@@ -4,11 +4,11 @@ import { StyleSheet, Text, View, Button, Alert, TextInput } from "react-native";
 
 export default function App() {
 	//States:
-	const [message, setMessage] = useState(""); //initialized as empty string
+	const [message, setMessage] = useState("");
 
 	//Functions:
 	const showAlert = () => {
-		Alert.alert("Hello", "You typed: " + message); //"alert" = method of Alert component
+		Alert.alert("Hello", "You typed: " + message);
 		console.log("Hello console");
 	};
 
